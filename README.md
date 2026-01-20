@@ -1,93 +1,71 @@
-Olist E-commerce Analytics Pipeline
+# Olist E-commerce Analytics Pipeline
 
-An end-to-end SQL-driven data warehousing and analytics pipeline built using the Olist public e-commerce dataset.
-This project simulates how real companies ingest, clean, transform, and analyze daily transactional data for business decision-making.
+An end-to-end **SQL-driven data warehousing and analytics pipeline** built using the Olist public e-commerce dataset.  
+This project demonstrates how real companies ingest, clean, transform, and analyze incremental transactional data for business insights.
 
-Project Overview
+---
+
+## Project Overview
 
 This pipeline is designed to:
 
-Ingest daily incremental Olist data via API
+- Ingest **daily incremental Olist data via API**
+- Store data in a **PostgreSQL raw layer**
+- Clean and structure data into a **clean layer**
+- Transform it into a **business-ready star schema**
+- Connect the business layer to **Power BI dashboards** for analytics
 
-Store data in a PostgreSQL raw layer
+The objective is to showcase **practical SQL, ETL design, and BI integration** in an industry-style workflow.
 
-Clean and structure data into a clean layer
+--
 
-Transform it into a business-ready star schema
 
-Connect the business layer to Power BI dashboards for analytics
+---
 
-The goal is to demonstrate practical SQL, ETL design, and BI integration similar to real-world analytics systems.
+## Data Layers
 
-Layers Explained
-1. Raw Layer
+### **Raw Layer**
+Stores the original API data exactly as received for traceability and incremental loading.
 
-Stores the original API data exactly as received.
+### **Clean Layer**
+Standardizes and prepares data by handling missing values, correcting data types, and establishing relationships.
 
-Used for traceability and incremental ingestion.
+### **Business Layer**
+Transforms cleaned data into a **star-schema warehouse** and calculates key business metrics for analysis.
 
-2. Clean Layer
+---
 
-Cleans and standardizes data:
+## Key Features
 
-Handles missing values
+- Incremental ETL pipeline
+- SQL-based data cleaning and transformations
+- Star-schema warehouse modeling
+- Power BI dashboard integration
+- Industry-style analytics workflow
 
-Fixes data types
+---
 
-Establishes relationships across tables
+## Tools & Technologies
 
-3. Business Layer
+- **Python** – API ingestion and automation  
+- **PostgreSQL (PgAdmin)** – Data storage and SQL transformations  
+- **SQL** – Data modeling and cleaning  
+- **Power BI** – Business intelligence dashboards  
 
-Structured into a star schema for analytics.
+---
 
-Calculates important business metrics:
+## Example Analytics Use Cases
 
-Sales performance
+- Revenue and sales trend analysis  
+- Customer segmentation and behavior insights  
+- Delivery and logistics performance tracking  
+- Product and seller performance analysis  
 
-Customer behavior
+---
 
-Order and delivery KPIs
+## Learning Outcomes
 
-Key Features
-
-Incremental ETL pipeline
-
-SQL-based transformations in PostgreSQL
-
-Star schema data warehouse design
-
-Power BI dashboards for visualization
-
-Realistic workflow used in analytics and data engineering roles
-
-Tools & Technologies
-
-Python – API ingestion and automation
-
-PostgreSQL (PgAdmin) – Data storage and SQL transformations
-
-SQL – Data cleaning and modeling
-
-Power BI – Analytics and dashboard creation
-
-Example Analytics Use Cases
-
-Analyze daily revenue trends
-
-Track customer purchase behavior
-
-Measure delivery performance and delays
-
-Identify top-performing products and sellers
-
-Learning Outcomes
-
-Through this project, I practiced:
-
-Building industry-style ETL pipelines
-
-Structuring and optimizing SQL data models
-
-Designing analytics-ready star schema
-
-Delivering insights through interactive BI dashboards
+- Designed and implemented a full ETL pipeline  
+- Practiced advanced SQL transformations  
+- Built an analytics-ready star schema  
+- Delivered business insights through Power BI  
