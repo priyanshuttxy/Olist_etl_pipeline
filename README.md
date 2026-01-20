@@ -67,4 +67,4 @@ Transforms cleaned data into a **star-schema warehouse** and calculates key busi
 - Built an analytics-ready star schema  
 - Delivered business insights through Power BI  
 
-**(Still working in this project)**
+**(Not yet completed, still working in this project)**
