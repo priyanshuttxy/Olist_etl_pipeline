@@ -17,9 +17,6 @@ This pipeline is designed to:
 
 The objective is to showcase **practical SQL, ETL design, and BI integration** in an industry-style workflow.
 
---
-
-
 ---
 
 ## Data Layers
